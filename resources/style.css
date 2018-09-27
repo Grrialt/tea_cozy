@@ -4,12 +4,12 @@
 	color: seashell;
 	background-color: black;
 	opacity: 0.9;
-	margin: auto;
+	
 }
 
 .header{
 	height: 69px;
-	width: 1500px;
+	width: 100%;
 	border-bottom: 1px solid seashell;
 	position: fixed;
 	display: flex;
@@ -26,6 +26,13 @@
 .navigation nav{
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: space-around;
+	list-style: none;
+	width: 80%;
+}
+
+.navigation li{
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
