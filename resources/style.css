@@ -15,6 +15,7 @@
 	display: flex;
 	justify-content: space-between;
 	background-color: black;
+	z-index: 2;
 }
 
 .logo img{
@@ -30,17 +31,19 @@
 	list-style: none;
 	width: 100%;
 	margin-top: 15px;
+
 }
 
 .navigation li{
 	margin-left: 10px;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 .mission{
 	position: relative;
 	text-align: center;
-	margin: 71px auto;
+	margin: 0 auto;
+	z-index: 1;
 }
 
 .mission img{
@@ -51,7 +54,6 @@
 }
 
 .text-1{
-	border: thin solid white;
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
@@ -63,7 +65,6 @@
 }
 
 .text-1 h2, h4{
-	border: thin solid white;
 	background-color: black;
 	display: flex;
 	justify-content: center;
