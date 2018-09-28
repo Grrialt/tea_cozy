@@ -16,7 +16,7 @@
 	justify-content: space-between;
 	background-color: black;
 	z-index: 2;
-	margin: 0px;
+	margin: default;
 }
 
 .logo img{
@@ -39,10 +39,14 @@
 	margin-right: 20px;
 }
 
+body{
+	margin: 0;
+}
+
 .mission{
 	position: relative;
 	text-align: center;
-	margin: 0 auto;
+	margin: default;
 	z-index: 1;
 }
 
