@@ -3,9 +3,15 @@
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
-	
-	
 }
+
+/*.header,
+.mission,
+.featered-tea,
+.locations,
+footer{
+	background-color: black;
+}*/
 
 .header{
 	height: 69px;
@@ -54,10 +60,7 @@ body{
 }
 
 .mission img{
-	height: 700px;
-	
-	
-	
+	height: 700px;	
 }
 
 .text-1{
@@ -88,6 +91,16 @@ h2{
     font-weight: bold;
 }
 
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
 h4 { 
     display: block;
     font-size: 1em;
@@ -98,13 +111,17 @@ h4 {
     font-weight: bold;
 }
 
-/* Feauture Tea part */
+/* Feature Tea part */
+.featured-tea{
+	/*margin-bottom: 300px;*/
+}
+
 .text-2{
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	margin-top: 90px;
+	margin-top: 60px;
 }
 
 .pictures-1-line{
@@ -124,3 +141,78 @@ h4 {
 	width: 300px;
 }	
 
+.featured-tea h4{
+	text-align: center;
+	
+}
+
+/* Locations part */
+
+.locations{
+	border: thin dotted red;
+	text-align: center;
+	height: 570px;
+	width: 1200px;
+	background-image: url(./images/img-locations-background.jpg);
+	/*display: flex;
+	justify-content: center;*/
+	margin: auto;
+	margin-top: 90px;
+}
+
+/*.locations img{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+    text-align: center;
+}*/
+
+.locations h2{
+	border: thin dotted red;
+	height: 40px;
+	margin-top: 70px;
+	background: none !important;
+	/*position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);*/
+}
+/*
+.three-locations{
+	border: thin dotted red;
+	margin-top: 200px;
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: row;
+	height: 340px;
+}*/
+
+.downtown{
+	border: thin dotted red;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 320px;
+	width: 300px;
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.east-bayside{
+	border: thin dotted red;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 320px;
+	width: 300px;
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.oakdale{
+	border: thin dotted red;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 320px;
+	width: 300px;
+	display: inline-flex;
+	flex-direction: column;
+}
