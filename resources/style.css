@@ -37,7 +37,10 @@
 .navigation li{
 	margin-left: 10px;
 	margin-right: 20px;
+	margin-top: 15px;
 }
+
+/* Mission part */
 
 body{
 	margin: 0;
@@ -84,4 +87,40 @@ h2{
     margin-right: 0;
     font-weight: bold;
 }
+
+h4 { 
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+/* Feauture Tea part */
+.text-2{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 90px;
+}
+
+.pictures-1-line{
+	display: flex;
+	justify-content: center;
+}
+
+.pictures-2-line{
+	display: flex;
+	justify-content: center;
+}
+
+.featured-tea img{
+	padding-left: 40px;
+	padding-right: 40px; 
+	height: 200px;
+	width: 300px;
+}	
 
