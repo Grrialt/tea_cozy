@@ -5,14 +5,6 @@
 	background-color: black;
 }
 
-/*.header,
-.mission,
-.featered-tea,
-.locations,
-footer{
-	background-color: black;
-}*/
-
 .header{
 	height: 69px;
 	width: 100%;
@@ -60,7 +52,8 @@ body{
 }
 
 .mission img{
-	height: 700px;	
+	height: 800px;
+	width: 1200px;	
 }
 
 .text-1{
@@ -80,6 +73,8 @@ body{
 	justify-content: center;
 	align-items: center;	
 }
+
+/* h2-h5 */
 
 h2{
 	display: block;
@@ -111,9 +106,23 @@ h4 {
     font-weight: bold;
 }
 
+h5 { 
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
 /* Feature Tea part */
+
 .featured-tea{
-	padding-bottom: 100px;
+	position: relative;
+	padding-top: 50px;
+	
 }
 
 .text-2{
@@ -149,70 +158,70 @@ h4 {
 /* Locations part */
 
 .locations{
-	border: thin dotted red;
+	padding-top: 50px;
 	text-align: center;
 	height: 570px;
 	width: 1200px;
 	background-image: url(./images/img-locations-background.jpg);
-	/*display: flex;
-	justify-content: center;*/
 	margin: auto;
 	margin-top: 90px;
 }
 
-/*.locations img{
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
-    text-align: center;
-}*/
-
 .locations h2{
-	border: thin dotted red;
 	height: 40px;
 	margin-top: 70px;
 	background: none !important;
-	/*position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);*/
 }
-/*
+
 .three-locations{
-	border: thin dotted red;
-	margin-top: 200px;
-	display: inline-flex;
-	justify-content: center;
-	flex-direction: row;
-	height: 340px;
-}*/
+	background: repeat;
+	padding-bottom: 120px;	
+}
 
 .downtown{
-	border: thin dotted red;
-	margin-left: 20px;
 	margin-right: 20px;
 	height: 320px;
 	width: 300px;
 	display: inline-flex;
 	flex-direction: column;
+	background: black;
 }
 
 .east-bayside{
-	border: thin dotted red;
 	margin-left: 20px;
 	margin-right: 20px;
 	height: 320px;
 	width: 300px;
 	display: inline-flex;
 	flex-direction: column;
+	background: black;
 }
 
 .oakdale{
-	border: thin dotted red;
+
 	margin-left: 20px;
-	margin-right: 20px;
 	height: 320px;
 	width: 300px;
 	display: inline-flex;
 	flex-direction: column;
+	background: black;
+}
+
+/* Footer */
+
+.text-3{
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+	text-align: center;
+}
+
+.text-3 h5{
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.copyright{
+	text-align: left;
+	padding-left: 20px;
 }
